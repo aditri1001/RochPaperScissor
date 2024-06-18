@@ -1,0 +1,123 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Chewy", sans-serif;
+}
+
+body,
+head {
+  width: 100%;
+  height: 100%;
+  background-color: #7d7c7c;
+}
+
+.top {
+  margin: 0;
+  width: 100%;
+  color: azure;
+  background-color: #0f0f0f;
+  text-align: center;
+}
+
+.top h1 {
+  letter-spacing: 1rem;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.top h3 {
+  letter-spacing: 0.15rem;
+  padding: 0 2rem 2rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#c-h {
+  margin: 2rem 0 0 0;
+  color: #0f0f0f;
+}
+
+.plates {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.plate {
+  padding-top: 2rem;
+  padding-left: 1.7rem;
+  padding-right: 2rem;
+  width: 10rem;
+  height: 15rem;
+  /* border: 1px solid black; */
+  background-color: #eeeeee;
+  align-items: cneter;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  overflow: none;
+  transition: 0.5s;
+}
+
+.plate:hover {
+  transform: translateY(-1.5rem);
+  background-color: #cdf5fd;
+  color: #f45050;
+}
+
+.plate:hover #img_ {
+  transform: translateY(-1.5rem);
+}
+
+#img_ {
+  width: 7rem;
+  transition: 0.5s;
+}
+
+.plate h2 {
+  font-size: 2rem;
+}
+
+.s-plates {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.s-plate1 {
+  padding-top: 1.5rem;
+}
+
+.s-plate1 p {
+  margin: 0.25rem;
+}
+
+.s-plate p {
+  margin: 0.2rem;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  margin: 0;
+  padding: 1.25rem;
+  background-color: #0f0f0f;
+  color: #ffdfdf;
+  text-align: center;
+  height: 4rem;
+}
