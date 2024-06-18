@@ -23,4 +23,4 @@ Hey there! Welcome to the Rock Paper Scissors Game! This is a simple and fun gam
 
 ## Screenshot
 
-![Rock Paper Scissors Game](./images/screenshot.png)
+![Rock Paper Scissors Game](./icons/RochPaperScissor.png)
