@@ -1,7 +1,3 @@
-Sure! Here's a more casual and conversational README for your Rock Paper Scissors game:
-
----
-
 # Rock Paper Scissors Game
 
 Hey there! Welcome to the Rock Paper Scissors Game! This is a simple and fun game where you can play Rock, Paper, Scissors against the computer. It's built with basic HTML, CSS, and JavaScript.
